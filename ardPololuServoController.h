@@ -18,7 +18,9 @@ public:
     {
         return 
             String(ARDPOLOLUSERVOCONTROLLER_MAJOR_VERSION) +
+            "." +
             String(ARDPOLOLUSERVOCONTROLLER_MINOR_VERSION) +
+            "." +
             String(ARDPOLOLUSERVOCONTROLLER_PATCH_VERSION);
     }
     ardPololuServoController(SerialType* serialPtr, unsigned int baudRate = 9600)
